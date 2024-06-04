@@ -16,7 +16,7 @@
 
 - 📫 Reach me at **daksh.java.util@gmail.com**
 
-- ⚡ Fun fact **I think im quite good at this development stuff**
+- ⚡ Fun fact **There's nothing fun about me**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
