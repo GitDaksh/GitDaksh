@@ -6,17 +6,16 @@
 
 - 🔭 I’m currently developing **a tourism website.**
 
-- 🌱 I’m currently learning **ReactJS ,MongoDB**
+- 🌱 I’m currently learning **ReactJS and MongoDB**
 
 - 👯 I’m looking to collaborate on **anything related to development(web)**
 
 - 🤝 I’m looking for help with **the frontend of my tourism website**
 
-- 💬 Ask me about **basically anything related to coding.**
+- 💬 Ask me about **basically anything related to programming.**
 
 - 📫 Reach me at **daksh.java.util@gmail.com**
 
-- ⚡ Fun fact **There's nothing fun about me**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
