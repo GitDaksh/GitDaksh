@@ -4,13 +4,13 @@
 <img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/730703/screenshots/6581243/avento.gif">
 
 
-- 🔭 I’m currently developing **a tourism website.**
+- 🔭 I’m currently developing **an AI GitHub SaaS Application.**
 
-- 🌱 I’m currently learning **ReactJS and MongoDB**
+- 🌱 I’m currently learning **NextJS and PostreSql**
 
 - 👯 I’m looking to collaborate on **anything related to development(web)**
 
-- 🤝 I’m looking for help with **the frontend of my tourism website**
+- 🤝 I’m looking for help with **the frontend of my SaaS Application**
 
 - 💬 Ask me about **basically anything related to programming.**
 
