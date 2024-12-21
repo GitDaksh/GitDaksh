@@ -10,7 +10,7 @@
 
 - 👯 I’m looking to collaborate on **anything related to development(web)**
 
-- 🤝 I’m looking for help with **the frontend of my SaaS Application**
+- 🤝 I’m looking for help with **the backend of my SaaS Application**
 
 - 💬 Ask me about **basically anything related to programming.**
 
