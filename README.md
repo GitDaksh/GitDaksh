@@ -1,4 +1,4 @@
-<img src="https://i.pinimg.com/originals/0a/7b/e7/0a7be7b9f24ce4dd9f6243476d03cf98.gif" alt="MasterHead" style="width:1100px; height:250px;">
+<img src="https://i.pinimg.com/originals/0a/7b/e7/0a7be7b9f24ce4dd9f6243476d03cf98.gif" alt="MasterHead" style="width:1100px; height:180px;">
 <h1 align="center">Hi 👋, I'm Daksh</h1>
 <h3 align="center">A passionate FullStack developer from India</h3>
 <img align="right" alt="Coding" width="400" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmxkOXZxMjZnZ25qeGU2cjk5endkejJkeTljbWZqNHV4NzB0dnM4OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/NytMLKyiaIh6VH9SPm/giphy.gif">
