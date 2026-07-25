@@ -6,7 +6,7 @@
   <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=22&pause=1000&color=C9A94A&center=true&vCenter=true&width=460&lines=Building+cool+stuff+with+code;Full-Stack+Developer;AI+%2B+ML+Enthusiast;Competitive+Programmer" alt="Typing SVG" />
 </p>
 
-<img align="right" alt="Coding" width="380" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif">
+<img align="right" alt="Coding" width="340" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif">
 
 - 🔥 Currently developing **an AI-powered GitHub SaaS app**
 - 📖 Exploring **Next.js, TypeScript, and PostgreSQL**
@@ -14,10 +14,6 @@
 - 🚀 Need help? Happy to discuss **anything programming-related**
 - 💡 Love solving problems with **efficient and scalable solutions**
 - 📬 Reach me at **[daksh.java.util@gmail.com](mailto:daksh.java.util@gmail.com)**
-
-<br clear="right"/>
-
----
 
 ### 🛠️ Tech Stack
 
@@ -34,6 +30,8 @@
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
 </p>
 
+<br clear="right"/>
+
 ---
 
 ### 📊 GitHub Activity
@@ -41,16 +39,6 @@
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=GitDaksh&theme=tokyonight&hide_border=true&cache_seconds=86400" alt="GitHub Streak"/>
 </p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/GitDaksh/GitDaksh/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/GitDaksh/GitDaksh/output/github-snake.svg" />
-    <img alt="GitDaksh's contribution snake animation" src="https://raw.githubusercontent.com/GitDaksh/GitDaksh/output/github-snake.svg" />
-  </picture>
-</p>
-
----
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=GitDaksh&color=C9A94A&style=flat-square&label=Profile+Views" alt="Profile views"/>
