@@ -20,7 +20,7 @@ Next.js, TypeScript and Tailwind on the front; Node, Express and Socket.IO on th
 
 ## About
 
-Final-year CS student at Chandigarh University. I like building software that happens in real time: CodeShare, and [VisualVibe](https://github.com/GitDaksh/visualvibe), a WebRTC video-calling app. Codeforces Specialist (max 1500), and I tutor competitive programming in C++. Off the clock I do CTFs on TryHackMe, Hack The Box and picoCTF.
+Final-year CS student. I like building software that happens in real time: CodeShare, and [VisualVibe](https://github.com/GitDaksh/visualvibe), a WebRTC video-calling app. Codeforces Specialist (max 1500), and I tutor competitive programming in C++. Off the clock I do CTFs on TryHackMe, Hack The Box and picoCTF.
 
 Looking for SDE roles and internships. Reach me at [daksh.java.util@gmail.com](mailto:daksh.java.util@gmail.com).
 
