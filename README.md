@@ -1,16 +1,16 @@
-# Daksh
-
-**Full-stack engineer building real-time apps.** Open to SDE roles and internships.
+<img src="assets/hero.svg" width="100%" alt="Daksh. Full-stack engineer building real-time apps. Open to SDE roles and internships.">
 
 <p>
-  <a href="https://codeshare.tech"><img src="https://img.shields.io/badge/codeshare.tech-000000?style=flat-square" height="28" alt="codeshare.tech"></a>
+  <a href="https://codeshare.tech"><img src="https://img.shields.io/badge/codeshare.tech-000000?style=flat-square&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZD0iTTggNiAyIDEybDYgNk0xNiA2bDYgNi02IDYiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI0M5QTk0QSIgc3Ryb2tlLXdpZHRoPSIyLjYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPjwvc3ZnPg%3D%3D" height="28" alt="codeshare.tech"></a>
   <a href="mailto:daksh.java.util@gmail.com"><img src="https://img.shields.io/badge/daksh.java.util%40gmail.com-000000?style=flat-square&logo=gmail&logoColor=C9A94A" height="28" alt="Email"></a>
-  <a href="https://www.linkedin.com/in/daksh-pushpad-0aa657288/"><img src="https://img.shields.io/badge/LinkedIn-000000?style=flat-square" height="28" alt="LinkedIn"></a>
+  <a href="https://www.linkedin.com/in/daksh-pushpad-0aa657288/"><img src="https://img.shields.io/badge/LinkedIn-000000?style=flat-square&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI0M5QTk0QSIgZD0iTTMuNSA5aDMuOHYxMS41SDMuNXpNNS40IDMuM2EyLjIgMi4yIDAgMSAxIDAgNC40IDIuMiAyLjIgMCAwIDEgMC00LjR6TTkuNiA5aDMuNnYxLjZjLjUtLjkgMS44LTEuOSAzLjYtMS45IDMuOCAwIDQuNSAyLjUgNC41IDUuOHY2SDE3LjV2LTUuM2MwLTEuMyAwLTIuOS0xLjgtMi45cy0yLjEgMS40LTIuMSAyLjh2NS40SDkuNnoiLz48L3N2Zz4%3D" height="28" alt="LinkedIn"></a>
   <a href="https://codeforces.com/profile/Lyraen"><img src="https://img.shields.io/badge/Codeforces-max%201500-1C1C1C?style=flat-square&logo=codeforces&logoColor=C9A94A&labelColor=000000" height="28" alt="Codeforces"></a>
-  <a href="https://leetcode.com/u/LEETCODE_USERNAME/"><img src="https://img.shields.io/badge/LeetCode-000000?style=flat-square&logo=leetcode&logoColor=C9A94A" height="28" alt="LeetCode"></a>
+  <a href="https://leetcode.com/u/GitDaksh/"><img src="https://img.shields.io/badge/LeetCode-000000?style=flat-square&logo=leetcode&logoColor=C9A94A" height="28" alt="LeetCode"></a>
 </p>
 
 ## CodeShare
+
+<a href="https://codeshare.tech"><img src="assets/codeshare.svg" width="100%" alt="A CodeShare room: a brute-force two-sum becomes a hash map live, the Big-O badge drops from O(n²) to O(n) and all tests pass."></a>
 
 A real-time collaborative coding platform. Open a room, share the link, and write code together with live presence and chat. Practice mode adds a problem library with in-room tests, and a live Big-O badge tracks time and space complexity.
 
@@ -83,7 +83,7 @@ Looking for SDE roles and internships. Reach me at [daksh.java.util@gmail.com](m
 
 <p>
   <img src="https://streak-stats.demolab.com?user=GitDaksh&background=000000&border=262626&stroke=262626&ring=C9A94A&fire=E8CF85&currStreakNum=F2F2F2&sideNums=F2F2F2&currStreakLabel=C9A94A&sideLabels=8C8C8C&dates=5C5C5C&border_radius=12&cache_seconds=21600" width="49%" alt="GitHub streak">
-  <img src="https://leetcard.jacoblin.cool/LEETCODE_USERNAME?font=Space_Grotesk&border=1&radius=12&colors=000000,141414,F2F2F2,8C8C8C,C9A94A,E8CF85,8A6D1F,C9A94A" width="49%" alt="LeetCode stats">
+  <img src="https://leetcard.jacoblin.cool/GitDaksh?font=Space_Grotesk&border=1&radius=12&colors=000000,141414,F2F2F2,8C8C8C,C9A94A,E8CF85,8A6D1F,C9A94A" width="49%" alt="LeetCode stats">
 </p>
 
 <picture>
