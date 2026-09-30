@@ -1,0 +1,169 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="410" viewBox="0 0 900 410" role="img" aria-labelledby="ct cd">
+<title id="ct">CodeShare</title><desc id="cd">A CodeShare room: a brute-force two-sum is replaced with a hash map live, the Big-O badge drops from O(n squared) to O(n) and all tests pass.</desc>
+<style>*{animation-duration:17s;animation-iteration-count:infinite;animation-timing-function:linear}text{font-family:system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}.m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace;font-size:13px;fill:#6B6B6B}.g{font-size:12px;fill:#3D3D3D}.kw{fill:#FFF}.ty{fill:#9C9C9C}.fn{fill:#F2F2F2}.nu{fill:#E8CF85}.id{fill:#CFCFCF}.me{fill:#B8B8B8}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes dot{0%,60%,100%{opacity:.25}30%{opacity:1}}
+@keyframes bob{0%,60%,100%{transform:none}30%{transform:translateY(-3px)}}
+@keyframes cb{0%,62%{opacity:1}64%,96%{opacity:0}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+@keyframes k1{0%{opacity:1}17.94%{opacity:1}18.65%{opacity:0}96.18%{opacity:0}96.24%{opacity:1}100%{opacity:1}}
+@keyframes k2{0%{opacity:0}18.53%{opacity:0}19.41%{opacity:1}51.5%{opacity:1}52.39%{opacity:0}100%{opacity:0}}
+@keyframes k3{0%{opacity:0;transform:translateY(5px)}52.09%{opacity:0;transform:translateY(5px)}53.97%{opacity:1;transform:none}96.18%{opacity:1;transform:none}96.24%{opacity:0;transform:translateY(5px)}100%{opacity:0;transform:translateY(5px)}}
+@keyframes k4{0%{opacity:0}52.09%{opacity:0}53.86%{opacity:1}96.18%{opacity:1}96.24%{opacity:0}100%{opacity:0}}
+@keyframes k5{0%{opacity:1}17.94%{opacity:1}18.41%{opacity:0}24.44%{opacity:0}24.92%{opacity:1}96.18%{opacity:1}96.24%{opacity:0}96.71%{opacity:0}96.76%{opacity:1}100%{opacity:1}}
+@keyframes k6{0%{opacity:1}17.94%{opacity:1}18.41%{opacity:0}31.44%{opacity:0}31.92%{opacity:1}96.18%{opacity:1}96.24%{opacity:0}96.71%{opacity:0}96.76%{opacity:1}100%{opacity:1}}
+@keyframes k7{0%{opacity:0}35.83%{opacity:0}36.3%{opacity:1}96.18%{opacity:1}96.24%{opacity:0}100%{opacity:0}}
+@keyframes k8{0%{opacity:0}44.3%{opacity:0}44.77%{opacity:1}96.18%{opacity:1}96.24%{opacity:0}100%{opacity:0}}
+@keyframes k9{0%{opacity:0}47.87%{opacity:0}48.34%{opacity:1}96.18%{opacity:1}96.24%{opacity:0}100%{opacity:0}}
+@keyframes k10{0%{opacity:0}13.24%{opacity:0}13.59%{opacity:1}17.94%{opacity:1}18.29%{opacity:0}100%{opacity:0}}
+@keyframes k11{0%{opacity:0}14.71%{opacity:0}15.06%{opacity:1}17.94%{opacity:1}18.29%{opacity:0}100%{opacity:0}}
+@keyframes k12{0%{opacity:0}16.18%{opacity:0}16.53%{opacity:1}17.94%{opacity:1}18.29%{opacity:0}100%{opacity:0}}
+@keyframes k13{0%{opacity:1}17.94%{opacity:1}18.41%{opacity:0}96.18%{opacity:0}96.24%{opacity:1}100%{opacity:1}}
+@keyframes k14{0%{transform:translateY(-66px)}17.94%{transform:translateY(-66px)}18.65%{transform:translateY(-110px)}24.44%{transform:translateY(-110px)}25.03%{transform:translateY(-88px)}31.44%{transform:translateY(-88px)}32.03%{transform:translateY(-66px)}35.83%{transform:translateY(-66px)}36.42%{transform:translateY(-44px)}44.3%{transform:translateY(-44px)}44.89%{transform:translateY(-22px)}47.87%{transform:translateY(-22px)}48.46%{transform:none}96.18%{transform:none}96.24%{transform:translateY(-66px)}100%{transform:translateY(-66px)}}
+@keyframes k15{0%{opacity:0}19.12%{opacity:0}19.18%{opacity:1}96.18%{opacity:1}96.24%{opacity:0}100%{opacity:0}}
+@keyframes k16{0%{transform:none}19.12%{transform:none;animation-timing-function:steps(29)}23.86%{transform:translateX(226.2px)}96.18%{transform:translateX(226.2px)}96.24%{transform:none}100%{transform:none}}
+@keyframes k17{0%{opacity:0}24.97%{opacity:0}25.03%{opacity:1}96.18%{opacity:1}96.24%{opacity:0}100%{opacity:0}}
+@keyframes k18{0%{transform:none}24.97%{transform:none;animation-timing-function:steps(36)}30.86%{transform:translateX(280.8px)}96.18%{transform:translateX(280.8px)}96.24%{transform:none}100%{transform:none}}
+@keyframes k19{0%{opacity:0}31.97%{opacity:0}32.03%{opacity:1}96.18%{opacity:1}96.24%{opacity:0}100%{opacity:0}}
+@keyframes k20{0%{transform:none}31.97%{transform:none;animation-timing-function:steps(20)}35.24%{transform:translateX(156px)}96.18%{transform:translateX(156px)}96.24%{transform:none}100%{transform:none}}
+@keyframes k21{0%{opacity:0}36.36%{opacity:0}36.42%{opacity:1}96.18%{opacity:1}96.24%{opacity:0}100%{opacity:0}}
+@keyframes k22{0%{transform:none}36.36%{transform:none;animation-timing-function:steps(45)}43.71%{transform:translateX(351px)}96.18%{transform:translateX(351px)}96.24%{transform:none}100%{transform:none}}
+@keyframes k23{0%{opacity:0}44.83%{opacity:0}44.89%{opacity:1}96.18%{opacity:1}96.24%{opacity:0}100%{opacity:0}}
+@keyframes k24{0%{transform:none}44.83%{transform:none;animation-timing-function:steps(15)}47.28%{transform:translateX(117px)}96.18%{transform:translateX(117px)}96.24%{transform:none}100%{transform:none}}
+@keyframes k25{0%{opacity:0}48.4%{opacity:0}48.46%{opacity:1}96.18%{opacity:1}96.24%{opacity:0}100%{opacity:0}}
+@keyframes k26{0%{transform:none}48.4%{transform:none;animation-timing-function:steps(1)}48.56%{transform:translateX(7.8px)}96.18%{transform:translateX(7.8px)}96.24%{transform:none}100%{transform:none}}
+@keyframes k27{0%{transform:translate(86.6px,125px)}12.06%{transform:translate(86.6px,125px)}13.24%{transform:translate(351.8px,125px)}14.71%{transform:translate(398.6px,147px)}16.18%{transform:translate(398.6px,169px)}17.94%{transform:translate(86.6px,125px)}19.12%{transform:translate(86.6px,125px);animation-timing-function:steps(29)}23.86%{transform:translate(312.8px,125px)}24.44%{transform:translate(86.6px,147px)}24.97%{transform:translate(86.6px,147px);animation-timing-function:steps(36)}30.86%{transform:translate(367.4px,147px)}31.44%{transform:translate(102.2px,169px)}31.97%{transform:translate(102.2px,169px);animation-timing-function:steps(20)}35.24%{transform:translate(258.2px,169px)}35.83%{transform:translate(102.2px,191px)}36.36%{transform:translate(102.2px,191px);animation-timing-function:steps(45)}43.71%{transform:translate(453.2px,191px)}44.3%{transform:translate(102.2px,213px)}44.83%{transform:translate(102.2px,213px);animation-timing-function:steps(15)}47.28%{transform:translate(219.2px,213px)}47.87%{transform:translate(86.6px,235px)}48.4%{transform:translate(86.6px,235px);animation-timing-function:steps(1)}48.56%{transform:translate(94.4px,235px)}96.18%{transform:translate(94.4px,235px)}96.24%{transform:translate(86.6px,125px)}100%{transform:translate(86.6px,125px)}}
+@keyframes k28{0%{opacity:0}12.06%{opacity:0}12.12%{opacity:1}96.18%{opacity:1}96.24%{opacity:0}100%{opacity:0}}
+@keyframes k29{0%{opacity:1}53.56%{opacity:1}54.27%{opacity:0}96.18%{opacity:0}96.24%{opacity:1}100%{opacity:1}}
+@keyframes k30{0%{opacity:0}54.27%{opacity:0}54.97%{opacity:1}60.62%{opacity:1}61.33%{opacity:0}100%{opacity:0}}
+@keyframes k31{0%{opacity:0}61.21%{opacity:0}62.39%{opacity:1}96.18%{opacity:1}96.24%{opacity:0}100%{opacity:0}}
+@keyframes k32{0%{opacity:1}53.56%{opacity:1}54.03%{opacity:0}96.18%{opacity:0}96.24%{opacity:1}100%{opacity:1}}
+@keyframes k33{0%{opacity:0}54.03%{opacity:0}54.5%{opacity:1}55.44%{opacity:1}55.92%{opacity:0}100%{opacity:0}}
+@keyframes k34{0%{opacity:0}55.74%{opacity:0}56.44%{opacity:1}96.18%{opacity:1}96.24%{opacity:0}100%{opacity:0}}
+@keyframes k35{0%{opacity:1}55.44%{opacity:1}55.92%{opacity:0}96.18%{opacity:0}96.24%{opacity:1}100%{opacity:1}}
+@keyframes k36{0%{opacity:0}55.92%{opacity:0}56.39%{opacity:1}57.33%{opacity:1}57.8%{opacity:0}100%{opacity:0}}
+@keyframes k37{0%{opacity:0}57.62%{opacity:0}58.33%{opacity:1}96.18%{opacity:1}96.24%{opacity:0}100%{opacity:0}}
+@keyframes k38{0%{opacity:1}57.33%{opacity:1}57.92%{opacity:0}96.18%{opacity:0}96.24%{opacity:1}100%{opacity:1}}
+@keyframes k39{0%{opacity:0}60.62%{opacity:0}61.5%{opacity:1}96.18%{opacity:1}96.24%{opacity:0}100%{opacity:0}}
+@keyframes k40{0%{opacity:1}57.33%{opacity:1}57.8%{opacity:0}96.18%{opacity:0}96.24%{opacity:1}100%{opacity:1}}
+@keyframes k41{0%{opacity:0}57.8%{opacity:0}58.27%{opacity:1}60.62%{opacity:1}61.09%{opacity:0}100%{opacity:0}}
+@keyframes k42{0%{opacity:0}60.92%{opacity:0}61.62%{opacity:1}96.18%{opacity:1}96.24%{opacity:0}100%{opacity:0}}
+@keyframes k43{0%{opacity:1}17.94%{opacity:1}19.12%{opacity:.38}53.56%{opacity:.38}54.44%{opacity:1}100%{opacity:1}}
+@keyframes k44{0%{opacity:0;transform:translateY(7px)}3.24%{opacity:0;transform:translateY(7px)}5.12%{opacity:1;transform:none}96.18%{opacity:1;transform:none}96.24%{opacity:0;transform:translateY(7px)}100%{opacity:0;transform:translateY(7px)}}
+@keyframes k45{0%{opacity:0;transform:translateY(7px)}8.53%{opacity:0;transform:translateY(7px)}10.41%{opacity:1;transform:none}96.18%{opacity:1;transform:none}96.24%{opacity:0;transform:translateY(7px)}100%{opacity:0;transform:translateY(7px)}}
+@keyframes k46{0%{opacity:0;transform:translateY(7px)}67.39%{opacity:0;transform:translateY(7px)}69.27%{opacity:1;transform:none}96.18%{opacity:1;transform:none}96.24%{opacity:0;transform:translateY(7px)}100%{opacity:0;transform:translateY(7px)}}
+@keyframes k47{0%{opacity:0;transform:translateY(4px)}72.39%{opacity:0;transform:translateY(4px)}74.27%{opacity:1;transform:none}96.18%{opacity:1;transform:none}96.24%{opacity:0;transform:translateY(4px)}100%{opacity:0;transform:translateY(4px)}}
+@keyframes k48{0%{opacity:1}2.94%{opacity:1}3.65%{opacity:0}63.27%{opacity:0}63.97%{opacity:1}67.09%{opacity:1}67.8%{opacity:0}96.18%{opacity:0}96.24%{opacity:1}100%{opacity:1}}
+@keyframes k49{0%{opacity:1}93.53%{opacity:1}95.88%{opacity:0}96.76%{opacity:0}100%{opacity:1}}</style>
+<defs>
+<path id="g7C" d="M332 -14q-130 0-206 72-76 73-76 208v168q0 135 76 208 76 72 206 72 129 0 200-70 70-71 70-194v-6h-130v10q0 62-34 102-35 40-106 40-70 0-110-43-40-43-40-117v-172q0-73 40-116 40-44 110-44 71 0 106 40 34 41 34 102v18h130v-14q0-123-70-194-71-70-200-70z"/>
+<path id="g7O" d="M338 -14q-132 0-210 72-78 73-78 208v168q0 135 78 208 78 72 210 72 132 0 210-72 78-73 78-208v-168q0-135-78-208-78-72-210-72zm0 118q74 0 115 43 41 43 41 115v176q0 72-41 115-41 43-115 43-73 0-114-43-42-43-42-115v-176q0-72 42-115 41-43 114-43z"/>
+<path id="g7S" d="M309 -14q-81 0-143 29-62 29-97 83-35 54-35 130v28h130v-28q0-63 39-94 39-32 106-32 68 0 101 27 34 27 34 69 0 29-16 47-17 18-48 29-32 12-77 22l-23 5q-72 16-124 41-51 24-78 64-28 40-28 104 0 64 30 110 31 45 86 70 56 24 131 24 75 0 133-26 59-25 92-76 34-50 34-126v-30h-130v30q0 40-16 64-15 25-44 36-29 12-69 12-60 0-89-22-28-23-28-62 0-26 14-44 13-18 40-30 27-12 69-21l23-5q75-16 130-41 56-25 87-66 31-41 31-105 0-64-32-112-33-49-92-76-60-28-141-28z"/>
+<path id="g7a" d="M224 -14q-53 0-95 18-42 19-67 54-24 36-24 87 0 51 24 85 25 35 68 52 44 18 100 18h136v28q0 35-22 58-22 22-70 22-47 0-70-22-23-21-30-55l-116 39q12 38 38 70 27 31 72 50 44 20 108 20 98 0 155-49 57-49 57-142v-185q0-30 28-30h40v-104h-84q-37 0-61 18-24 18-24 48v1h-19q-4-12-18-31-14-20-44-35-30-15-82-15zm22 102q53 0 86 30 34 29 34 78v10h-127q-35 0-55-15-20-15-20-42 0-27 21-44 21-17 61-17z"/>
+<path id="g7d" d="M270 -14q-59 0-110 30-52 29-83 86-31 57-31 138v16q0 81 31 138 31 57 82 86 51 30 111 30 45 0 76-10 30-11 49-27 19-16 29-34h18v261h126v-700h-124v60h-18q-17-28-52-51-36-23-104-23zm38 110q58 0 97 38 39 37 39 109v10q0 72-38 109-39 38-98 38-58 0-97-38-39-37-39-109v-10q0-72 39-109 39-38 97-38z"/>
+<path id="g7e" d="M296 -14q-74 0-130 32-57 31-88 88-32 58-32 136v12q0 78 31 136 31 57 87 88 56 32 130 32 73 0 127-32 54-33 84-90 30-58 30-134v-43h-361q2-51 38-83 36-32 88-32 53 0 78 23 25 23 38 51l103-54q-14-26-41-56-26-31-70-52-44-22-112-22zm-121 319h232q-4 43-35 69-30 26-79 26-51 0-81-26-30-26-37-69z"/>
+<path id="g7h" d="M70 0v700h126v-265h18q8 16 25 32 17 16 45 27 29 10 73 10 58 0 101-26 44-27 68-74 24-46 24-108v-296h-126v286q0 56-28 84-27 28-78 28-58 0-90-38-32-39-32-108v-252z"/>
+<path id="g7n" d="M70 0v496h124v-65h18q12 26 45 49 33 24 100 24 58 0 101-26 44-27 68-74 24-46 24-108v-296h-126v286q0 56-28 84-27 28-78 28-58 0-90-38-32-39-32-108v-252z"/>
+<path id="g7o" d="M306 -14q-74 0-133 30-59 30-93 87-34 57-34 137v16q0 80 34 137 34 57 93 87 59 30 133 30 74 0 133-30 59-30 93-87 34-57 34-137v-16q0-80-34-137-34-57-93-87-59-30-133-30zm0 112q58 0 96 38 38 37 38 107v10q0 70-38 107-37 38-96 38-58 0-96-38-38-37-38-107v-10q0-70 38-107 38-38 96-38z"/>
+<path id="g7one" d="M258 0v606h-18l-94-222h-134l143 316h231v-700z"/>
+<path id="g7parenleft" d="M390 -246q-111 0-187 39-76 39-115 119-38 80-38 204v278q0 124 38 204 39 80 115 119 76 39 187 39v-108q-109 0-164-62-54-63-54-196v-270q0-133 54-196 55-62 164-62z"/>
+<path id="g7parenright" d="M0 -246v108q110 0 164 62 54 63 54 196v270q0 133-54 196-54 62-164 62v108q112 0 188-39 75-39 114-119 38-80 38-204v-278q0-124-38-204-39-80-114-119-76-39-188-39z"/>
+<path id="g7r" d="M70 0v496h124v-56h18q11 30 36 44 26 14 60 14h60v-112h-62q-48 0-79-26-31-25-31-78v-282z"/>
+<path id="g7uni00B2" d="M26 350v44q0 60 32 94 32 34 99 49 44 10 65 23 20 13 20 34 0 20-16 31-16 11-40 11-24 0-42-12-18-13-20-44l-94 7q5 61 48 93 43 32 108 32 65 0 108-32 42-33 42-87 0-54-38-81-37-27-101-41-40-8-55-18-16-10-16-27h208v-76z"/>
+<clipPath id="cc">
+<rect width="900" height="410" rx="22"/></clipPath>
+<clipPath id="ed">
+<rect y="87" width="590" height="225"/></clipPath>
+<linearGradient id="e2" x2="0" y2="1"><stop offset="0" stop-color="#3A3A3A"/><stop offset=".4" stop-color="#262626"/><stop offset="1" stop-color="#141414"/></linearGradient></defs>
+<g clip-path="url(#cc)">
+<rect width="900" height="410"/>
+<rect y="86" width="590" height="226" fill="#0A0A0A"/>
+<rect x="590" y="48" width="310" height="362" fill="#060606"/><path d="M0 48.5H900M590.5 48V410M0 86.5H590M0 312.5H590" stroke="#1C1C1C"/>
+<g transform="translate(24 30.5) scale(0.0155 -0.0155)" fill="#F5F5F5"><use href="#g7C" x="0"/><use href="#g7o" x="644"/><use href="#g7d" x="1256"/><use href="#g7e" x="1894"/><use href="#g7S" x="2471"/><use href="#g7h" x="3077"/><use href="#g7a" x="3693"/><use href="#g7r" x="4271"/><use href="#g7e" x="4649"/></g><path d="M118 36l5-13" stroke="#3A3A3A" stroke-width="1.4" stroke-linecap="round"/><text x="131" y="30" font-size="12.5" fill="#8C8C8C" textLength="51">two-sum</text>
+<circle cx="796" cy="24" r="12"/>
+<circle cx="796" cy="24" r="10.5" fill="#D9D9D9"/>
+<circle cx="776" cy="24" r="12"/>
+<circle cx="776" cy="24" r="10.5" fill="#C9A94A"/><text x="796" y="28" font-size="10.5" fill="#000" text-anchor="middle" font-weight="700" textLength="6.3">R</text><text x="776" y="28" font-size="10.5" fill="#000" text-anchor="middle" font-weight="700" textLength="6.6">D</text>
+<rect x="818" y="12" width="62" height="24" rx="12" fill="#F5F5F5"/><text x="849" y="28.5" font-size="12" fill="#000" text-anchor="middle" font-weight="600" textLength="31.4">Share</text><text x="24" y="71.5" font-size="12.5" fill="#EDEDED" textLength="78.6">two_sum.cpp</text>
+<rect x="113.6" y="59.5" width="34.8" height="18" rx="9" fill="none" stroke="#262626"/><text x="121.6" y="71" font-size="10.5" fill="#8C8C8C" textLength="18.8">C++</text>
+<rect x="24" y="84" width="78.6" height="2" fill="#F5F5F5"/>
+<g class="m g" text-anchor="end"><text x="52" y="115.5">1</text><text x="52" y="137.5">2</text><text x="52" y="159.5">3</text><text x="52" y="181.5">4</text></g><text class="m" x="72" y="115.5" textLength="335.4" ><tspan class="ty">vector</tspan>&lt;<tspan class="kw">int</tspan>&gt; <tspan class="fn">twoSum</tspan>(<tspan class="ty">vector</tspan>&lt;<tspan class="kw">int</tspan>&gt;&amp; <tspan class="id">a</tspan>, <tspan class="kw">int</tspan> <tspan class="id">t</tspan>) {</text><text x="24" y="338" font-size="12" fill="#8C8C8C" textLength="29.3">Tests</text><text x="608" y="72" font-size="12.5" fill="#8C8C8C" textLength="26.8">Chat</text><text x="884" y="71.5" font-size="11" fill="#6E6E6E" text-anchor="end" textLength="39.6">2 online</text>
+<circle cx="835.4" cy="67.5" r="3" fill="#C9A94A"/>
+<rect x="608.5" y="345.5" width="275" height="36" rx="10" fill="#0B0B0B" stroke="#232323"/><text x="622" y="368.5" font-size="12.5" fill="#4A4A4A" textLength="51">Message</text><path d="M858 358l14 5.5-14 5.5 2.5-5.5z" fill="#4A4A4A"/>
+<g style="animation-name:k49">
+<rect x="395.1" y="55.5" width="84.2" height="25" rx="12.5" fill="#0E0E0E" stroke="#262626"/>
+<rect x="395.1" y="55.5" width="84.2" height="25" rx="12.5" fill="#C9A94A" fill-opacity=".08" stroke="#C9A94A" stroke-opacity=".7" style="opacity:1;animation-name:k4"/><text x="407.1" y="71.5" font-size="10.5" fill="#8C8C8C" textLength="22.7">Time</text>
+<g style="opacity:0;animation-name:k1">
+<g transform="translate(436.7 72) scale(0.0125 -0.0125)" fill="#F5F5F5"><use href="#g7O" x="0"/><use href="#g7parenleft" x="676"/><use href="#g7n" x="1074"/><use href="#g7uni00B2" x="1690"/><use href="#g7parenright" x="2054"/></g></g>
+<g style="opacity:0;animation-name:k2">
+<circle cx="440.7" cy="67.5" r="1.8" fill="#8C8C8C" style="animation:dot 1s 0.00s infinite"/>
+<circle cx="447.7" cy="67.5" r="1.8" fill="#8C8C8C" style="animation:dot 1s 0.15s infinite"/>
+<circle cx="454.7" cy="67.5" r="1.8" fill="#8C8C8C" style="animation:dot 1s 0.30s infinite"/></g>
+<g style="opacity:1;transform:none;animation-name:k3;animation-timing-function:ease-out">
+<g transform="translate(436.7 72) scale(0.0125 -0.0125)" fill="#E8CF85"><use href="#g7O" x="0"/><use href="#g7parenleft" x="676"/><use href="#g7n" x="1074"/><use href="#g7parenright" x="1680"/></g></g>
+<rect x="487.3" y="55.5" width="86.7" height="25" rx="12.5" fill="#0E0E0E" stroke="#262626"/><text x="499.3" y="71.5" font-size="10.5" fill="#8C8C8C" textLength="29.8">Space</text>
+<g style="opacity:0;animation-name:k1">
+<g transform="translate(536.1 72) scale(0.0125 -0.0125)" fill="#F5F5F5"><use href="#g7O" x="0"/><use href="#g7parenleft" x="676"/><use href="#g7one" x="1044"/><use href="#g7parenright" x="1496"/></g></g>
+<g style="opacity:0;animation-name:k2">
+<circle cx="540.1" cy="67.5" r="1.8" fill="#8C8C8C" style="animation:dot 1s 0.00s infinite"/>
+<circle cx="547.1" cy="67.5" r="1.8" fill="#8C8C8C" style="animation:dot 1s 0.15s infinite"/>
+<circle cx="554.1" cy="67.5" r="1.8" fill="#8C8C8C" style="animation:dot 1s 0.30s infinite"/></g>
+<g style="opacity:1;transform:none;animation-name:k3;animation-timing-function:ease-out">
+<g transform="translate(536.1 72) scale(0.0125 -0.0125)" fill="#F5F5F5"><use href="#g7O" x="0"/><use href="#g7parenleft" x="676"/><use href="#g7n" x="1074"/><use href="#g7parenright" x="1680"/></g></g>
+<g class="m g" text-anchor="end"><text x="52" y="203.5" style="opacity:1;animation-name:k5">5</text><text x="52" y="225.5" style="opacity:1;animation-name:k6">6</text><text x="52" y="247.5" style="opacity:1;animation-name:k7">7</text><text x="52" y="269.5" style="opacity:1;animation-name:k8">8</text><text x="52" y="291.5" style="opacity:1;animation-name:k9">9</text></g>
+<g clip-path="url(#ed)">
+<rect x="87.6" y="123" width="273" height="21" fill="#FFF" fill-opacity=".13" style="opacity:0;animation-name:k10"/>
+<rect x="72" y="145" width="335.4" height="21" fill="#FFF" fill-opacity=".13" style="opacity:0;animation-name:k11"/>
+<rect x="72" y="167" width="327.6" height="21" fill="#FFF" fill-opacity=".13" style="opacity:0;animation-name:k12"/>
+<g style="opacity:0;animation-name:k13"><text class="m" x="87.6" y="137.5" textLength="265.2" ><tspan class="kw">for</tspan> (<tspan class="kw">int</tspan> <tspan class="id">i</tspan> = <tspan class="nu">0</tspan>; <tspan class="id">i</tspan> &lt; <tspan class="id">a</tspan>.<tspan class="me">size</tspan>(); <tspan class="id">i</tspan>++)</text><text class="m" x="103.2" y="159.5" textLength="296.4" ><tspan class="kw">for</tspan> (<tspan class="kw">int</tspan> <tspan class="id">j</tspan> = <tspan class="id">i</tspan> + <tspan class="nu">1</tspan>; <tspan class="id">j</tspan> &lt; <tspan class="id">a</tspan>.<tspan class="me">size</tspan>(); <tspan class="id">j</tspan>++)</text><text class="m" x="118.8" y="181.5" textLength="280.8" ><tspan class="kw">if</tspan> (<tspan class="id">a</tspan>[<tspan class="id">i</tspan>] + <tspan class="id">a</tspan>[<tspan class="id">j</tspan>] == <tspan class="id">t</tspan>) <tspan class="kw">return</tspan> {<tspan class="id">i</tspan>, <tspan class="id">j</tspan>};</text></g>
+<g style="transform:none;animation-name:k14;animation-timing-function:ease-out"><text class="m" x="87.6" y="269.5" textLength="78" ><tspan class="kw">return</tspan> {};</text><text class="m" x="72" y="291.5" textLength="7.8" >}</text></g>
+<g style="opacity:1;animation-name:k15"><text class="m" x="87.6" y="137.5" textLength="226.2" ><tspan class="ty">unordered_map</tspan>&lt;<tspan class="kw">int</tspan>, <tspan class="kw">int</tspan>&gt; <tspan class="id">seen</tspan>;</text>
+<rect x="87.1" y="122" width="228.2" height="22" fill="#0A0A0A" style="transform:translateX(226.2px);animation-name:k16"/></g>
+<g style="opacity:1;animation-name:k17"><text class="m" x="87.6" y="159.5" textLength="280.8" ><tspan class="kw">for</tspan> (<tspan class="kw">int</tspan> <tspan class="id">i</tspan> = <tspan class="nu">0</tspan>; <tspan class="id">i</tspan> &lt; <tspan class="id">a</tspan>.<tspan class="me">size</tspan>(); <tspan class="id">i</tspan>++) {</text>
+<rect x="87.1" y="144" width="282.8" height="22" fill="#0A0A0A" style="transform:translateX(280.8px);animation-name:k18"/></g>
+<g style="opacity:1;animation-name:k19"><text class="m" x="103.2" y="181.5" textLength="156" ><tspan class="kw">int</tspan> <tspan class="id">need</tspan> = <tspan class="id">t</tspan> - <tspan class="id">a</tspan>[<tspan class="id">i</tspan>];</text>
+<rect x="102.7" y="166" width="158" height="22" fill="#0A0A0A" style="transform:translateX(156px);animation-name:k20"/></g>
+<g style="opacity:1;animation-name:k21"><text class="m" x="103.2" y="203.5" textLength="351" ><tspan class="kw">if</tspan> (<tspan class="id">seen</tspan>.<tspan class="me">count</tspan>(<tspan class="id">need</tspan>)) <tspan class="kw">return</tspan> {<tspan class="id">seen</tspan>[<tspan class="id">need</tspan>], <tspan class="id">i</tspan>};</text>
+<rect x="102.7" y="188" width="353" height="22" fill="#0A0A0A" style="transform:translateX(351px);animation-name:k22"/></g>
+<g style="opacity:1;animation-name:k23"><text class="m" x="103.2" y="225.5" textLength="117" ><tspan class="id">seen</tspan>[<tspan class="id">a</tspan>[<tspan class="id">i</tspan>]] = <tspan class="id">i</tspan>;</text>
+<rect x="102.7" y="210" width="119" height="22" fill="#0A0A0A" style="transform:translateX(117px);animation-name:k24"/></g>
+<g style="opacity:1;animation-name:k25"><text class="m" x="87.6" y="247.5" textLength="7.8" >}</text>
+<rect x="87.1" y="232" width="9.8" height="22" fill="#0A0A0A" style="transform:translateX(7.8px);animation-name:k26"/></g>
+<g style="transform:translate(94.4px,235px);animation-name:k27;animation-timing-function:steps(1)">
+<g style="opacity:1;animation-name:k28">
+<rect width="2" height="16" rx="1" fill="#F5F5F5" style="animation:cb 1.06s infinite"/></g></g></g>
+<g style="opacity:0;animation-name:k29"><text x="566" y="338" font-size="12" fill="#8C8C8C" text-anchor="end" textLength="60.7">2/3 passed</text></g>
+<g style="opacity:0;animation-name:k30"><text x="566" y="338" font-size="12" fill="#8C8C8C" text-anchor="end" textLength="42.7">running</text></g>
+<g style="opacity:1;animation-name:k31"><text x="566" y="338" font-size="12" fill="#F5F5F5" text-anchor="end" font-weight="600" textLength="60.8">3/3 passed</text><path d="M488.2 333.5l3 3 5.5-6" fill="none" stroke="#E8CF85" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g style="opacity:1;animation-name:k43">
+<rect x="24" y="355.5" width="72.2" height="30" rx="9" fill="#0C0C0C" stroke="#1F1F1F"/>
+<g transform="translate(40 370)" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+<g style="opacity:0;animation-name:k32"><path d="M-3.8 .2l2.6 2.6 5-5.4" stroke="#BDBDBD"/></g>
+<g style="opacity:0;animation-name:k33">
+<circle r="5" stroke="#8C8C8C" stroke-width="1.6" stroke-dasharray="20 12" style="animation:spin .7s linear infinite"/></g>
+<g style="opacity:1;animation-name:k34"><path d="M-3.8 .2l2.6 2.6 5-5.4" stroke="#E8CF85"/></g></g><text x="54" y="374.5" font-size="12" fill="#D6D6D6" textLength="28.2">small</text>
+<rect x="104.2" y="355.5" width="97.9" height="30" rx="9" fill="#0C0C0C" stroke="#1F1F1F"/>
+<g transform="translate(120.2 370)" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+<g style="opacity:0;animation-name:k35"><path d="M-3.8 .2l2.6 2.6 5-5.4" stroke="#BDBDBD"/></g>
+<g style="opacity:0;animation-name:k36">
+<circle r="5" stroke="#8C8C8C" stroke-width="1.6" stroke-dasharray="20 12" style="animation:spin .7s linear infinite"/></g>
+<g style="opacity:1;animation-name:k37"><path d="M-3.8 .2l2.6 2.6 5-5.4" stroke="#E8CF85"/></g></g><text x="134.2" y="374.5" font-size="12" fill="#D6D6D6" textLength="53.9">negatives</text>
+<rect x="210.1" y="355.5" width="120.3" height="30" rx="9" fill="#0C0C0C" stroke="#1F1F1F"/>
+<g transform="translate(226.1 370)" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+<g style="opacity:0;animation-name:k40"><path d="M-3.2-3.2l6.4 6.4M3.2-3.2l-6.4 6.4" stroke="#FF5A5A"/></g>
+<g style="opacity:0;animation-name:k41">
+<circle r="5" stroke="#8C8C8C" stroke-width="1.6" stroke-dasharray="20 12" style="animation:spin .7s linear infinite"/></g>
+<g style="opacity:1;animation-name:k42"><path d="M-3.8 .2l2.6 2.6 5-5.4" stroke="#E8CF85"/></g></g><text x="240.1" y="374.5" font-size="12" fill="#D6D6D6" textLength="38.3">n = 1e5</text>
+<g style="opacity:0;animation-name:k38"><text x="288.5" y="374.5" font-size="11" fill="#FF5A5A" font-weight="700" textLength="17.6">TLE</text></g>
+<g style="opacity:1;animation-name:k39"><text x="288.5" y="374.5" font-size="11" fill="#8C8C8C" textLength="27.9">41 ms</text></g></g>
+<g style="opacity:1;transform:none;animation-name:k44;animation-timing-function:ease-out"><text x="608" y="104" font-size="11" fill="#6E6E6E" textLength="19.2">riya</text><path d="M608 116q0-4 4-4h166.2q12 0 12 12v26q0 12-12 12h-158.2q-12 0-12-12z" fill="#141414" stroke="#232323"/><text x="620" y="129" font-size="12.5" fill="#E6E6E6" textLength="158.2">brute force TLEs on n = 1e5.</text><text x="620" y="147" font-size="12.5" fill="#E6E6E6" textLength="62.2">hash map?</text></g>
+<g style="opacity:1;transform:none;animation-name:k45;animation-timing-function:ease-out"><path d="M845.9 174h34.1q4 0 4 4v14q0 12-12 12h-26.1q-12 0-12-12v-6q0-12 12-12z" fill="#EDEDED"/><text x="872" y="193.5" font-size="12.5" fill="#0A0A0A" text-anchor="end" textLength="26.1">on it</text></g>
+<g style="opacity:1;transform:none;animation-name:k46;animation-timing-function:ease-out"><text x="608" y="218" font-size="11" fill="#6E6E6E" textLength="19.2">riya</text><path d="M608 230q0-4 4-4h80.8q12 0 12 12v8q0 12-12 12h-72.8q-12 0-12-12z" fill="#141414" stroke="#232323"/><text x="620" y="243" font-size="12.5" fill="#E6E6E6" textLength="72.8">clean. ship it</text></g>
+<g style="opacity:1;transform:none;animation-name:k47;animation-timing-function:ease-out">
+<rect x="620" y="256" width="34.3" height="18" rx="9" fill="#1A1A1A" stroke="#2C2C2C"/><path d="M0 2.2C-.9.4-3.6.5-3.6 2.7c0 2 2.2 3.2 3.6 4.5 1.4-1.3 3.6-2.5 3.6-4.5C3.6.5.9.4 0 2.2z" transform="translate(631 261)" fill="#E8CF85"/><text x="640" y="269" font-size="10.5" fill="#D6D6D6" textLength="4.3">1</text></g>
+<g style="opacity:0;animation-name:k48">
+<circle cx="612" cy="322" r="2.2" fill="#8C8C8C" style="animation:bob 1s 0.00s infinite"/>
+<circle cx="619" cy="322" r="2.2" fill="#8C8C8C" style="animation:bob 1s 0.14s infinite"/>
+<circle cx="626" cy="322" r="2.2" fill="#8C8C8C" style="animation:bob 1s 0.28s infinite"/><text x="636" y="326" font-size="11" fill="#6E6E6E" textLength="66.3">riya is typing</text></g></g></g>
+<rect x=".5" y=".5" width="899" height="409" rx="21.5" fill="none" stroke="url(#e2)"/>
+</svg>
