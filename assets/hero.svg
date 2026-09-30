@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="380" viewBox="0 0 900 380" role="img" aria-labelledby="ht hd">
+<title id="ht">Daksh</title><desc id="hd">Full-stack engineer building real-time apps. Open to SDE roles and internships.</desc>
+<style>
+@keyframes c1{0%,100%{opacity:0}45%,60%{opacity:.14}}
+@keyframes c2{0%,100%{opacity:0}45%,60%{opacity:.26}}
+@keyframes c3{0%,100%{opacity:0}45%,60%{opacity:.36}}.cl{opacity:0}
+@keyframes breathe{50%{opacity:.72}}.glow{animation:breathe 7s ease-in-out 4s infinite}
+@keyframes pop{0%{transform:scale(0)}60%{transform:scale(1.14)}100%{transform:scale(1)}}.you-av{transform-origin:66px 40px;animation:pop .5s cubic-bezier(.3,.7,.4,1) 1.7s both}
+@keyframes in{from{opacity:0}}
+@keyframes k_on1{0%,85.29%{opacity:1}100%{opacity:0}}.on1{opacity:0;animation:k_on1 2.04s linear both}.on2{animation:in .35s ease 1.84s backwards}
+@keyframes ring{0%{transform:scale(1);opacity:.55}100%{transform:scale(3.2);opacity:0}}.ring{transform-origin:826.9px 40px;animation:ring 2.2s cubic-bezier(.2,.6,.3,1) infinite;opacity:0}
+@keyframes rise{from{opacity:0;transform:translateY(128px)}40%{opacity:1}}.r{animation:rise .95s cubic-bezier(.16,1,.3,1) both}
+@keyframes sheen{from{transform:translateX(-209px) skewX(-18deg)}to{transform:translateX(623.5px) skewX(-18deg)}}
+@keyframes sheenop{0%,100%{opacity:1}}.sheen{opacity:0;animation:sheen 0.95s cubic-bezier(.45,.05,.35,1) 1.55s both,sheenop 0.95s 1.55s}
+@keyframes caretA{0%{opacity:0;transform:translateX(0)}14.67%{opacity:0}22.67%{opacity:1}30%{transform:translateX(0);animation-timing-function:linear}76.67%{transform:translateX(452.5px)}88%{opacity:1}100%{opacity:0;transform:translateX(452.5px)}}.cA{opacity:0;animation:caretA 1.5s both}
+@keyframes ty{from{opacity:0;transform:translateY(-110px)}}.t{animation:ty .22s cubic-bezier(.2,.7,.3,1) both}
+@keyframes caretB{0%{opacity:0;transform:translateX(0)}44.67%{opacity:0}48%{opacity:1}50%{transform:translateX(0);animation-timing-function:linear}100%{opacity:1;transform:translateX(635.08px)}}.cB{transform:translateX(635.08px);animation:caretB 3s both}
+@keyframes blink{0%,40%{opacity:1}55%,90%{opacity:0}100%{opacity:1}}.bl{animation:blink 1.15s ease-in-out 3.15s infinite}.av{animation:in .6s ease 2.12s backwards}
+@keyframes px{0%,43.2%{transform:translateX(890px);animation-timing-function:cubic-bezier(.3,.4,.2,1)}78.67%,81.33%{transform:translateX(0);animation-timing-function:cubic-bezier(.65,0,.3,1)}100%{transform:translateX(351.12px)}}.px{transform:translateX(351.12px);animation:px 3.75s both}
+@keyframes py{0%,43.2%{transform:translateY(30px);animation-timing-function:cubic-bezier(.5,0,.3,1)}78.67%,100%{transform:translateY(0)}}.py{animation:py 3.75s both}
+@keyframes drift{0%,100%{transform:translate(0,0)}30%{transform:translate(4px,-3px)}65%{transform:translate(-2px,2px)}}.dr{animation:drift 6s ease-in-out 3.95s infinite}
+@keyframes press{0%,100%{transform:scale(1)}50%{transform:scale(.86)}}.prs{transform-origin:56px 318px;animation:press .22s ease 2.93s}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<defs>
+<path id="g5D" d="M47 0v96h94v508h-94v96h280q140 0 215-71 74-71 74-214v-131q0-143-74-214-75-70-215-70zm203 98h78q91 0 135 46 44 46 44 137v138q0 92-44 137-44 45-135 45h-78z"/>
+<path id="g5E" d="M73 0v700h441v-98h-333v-201h305v-98h-305v-205h338v-98z"/>
+<path id="g5F" d="M73 0v700h432v-98h-324v-202h298v-98h-298v-302z"/>
+<path id="g5O" d="M336 -14q-129 0-205 72-76 73-76 210v164q0 137 76 210 76 72 205 72 129 0 206-72 76-73 76-210v-164q0-137-76-210-77-72-206-72zm0 97q83 0 128 49 45 48 45 132v172q0 84-45 132-45 49-128 49-81 0-127-49-46-48-46-132v-172q0-84 46-132 46-49 127-49z"/>
+<path id="g5S" d="M311 -14q-79 0-140 28-61 28-95 82-35 55-35 133v25h107v-25q0-74 44-111 45-37 119-37 75 0 113 31 38 32 38 82 0 33-18 54-18 21-51 34-33 12-79 23l-37 9q-67 16-117 40-49 23-76 62-27 39-27 100 0 62 31 106 30 44 84 68 54 24 127 24 73 0 131-25 57-25 90-74 33-49 33-123v-36h-107v36q0 45-18 73-19 28-52 41-33 13-77 13-64 0-99-27-36-26-36-73 0-32 16-53 15-20 45-33 30-13 75-23l37-9q68-15 120-39 52-23 82-63 30-40 30-103 0-63-31-110-32-47-90-74-58-26-137-26z"/>
+<path id="g5a" d="M229 -14q-53 0-95 18-41 18-66 53-24 35-24 85 0 51 24 84 25 34 68 51 42 17 96 17h150v32q0 43-26 69-26 26-80 26-53 0-81-25-28-25-37-65l-96 31q12 40 38 72 27 33 71 53 44 20 106 20 96 0 151-49 55-49 55-139v-203q0-30 28-30h42v-86h-77q-35 0-57 18-22 18-22 49v3h-15q-8-15-24-35-16-20-47-35-31-14-82-14zm15 85q62 0 100 35 38 36 38 98v10h-144q-41 0-66-18-25-17-25-51 0-34 26-54 26-20 71-20z"/>
+<path id="g5b" d="M361 -14q-72 0-111 26-38 26-57 58h-16v-70h-101v700h103v-274h16q12 20 32 38 20 19 53 31 33 12 81 12 62 0 114-30 52-30 83-87 31-57 31-136v-15q0-80-31-137-32-56-84-86-51-30-113-30zm-30 90q67 0 111 43 43 43 43 123v9q0 79-43 122-43 43-111 43-66 0-109-43-44-43-44-122v-9q0-80 44-123 43-43 109-43z"/>
+<path id="g5c" d="M305 -14q-71 0-129 30-57 30-90 87-34 57-34 137v13q0 80 34 137 33 56 90 86 58 31 129 31 71 0 121-26 50-26 80-69 31-43 40-95l-100-21q-5 33-21 60-16 27-45 43-29 16-73 16-43 0-77-19-35-20-55-56-20-37-20-89v-9q0-52 20-89 20-37 55-56 34-19 77-19 65 0 99 34 34 33 43 85l100-23q-12-51-43-94-30-43-80-68-50-26-121-26z"/>
+<path id="g5d" d="M280 -14q-61 0-113 30-52 30-83 86-32 57-32 137v15q0 79 31 136 31 57 83 87 52 30 114 30 48 0 80-12 33-12 54-31 21-18 32-38h16v274h103v-700h-101v70h-16q-19-32-58-58-38-26-110-26zm29 90q67 0 111 43 43 43 43 123v9q0 79-43 122-43 43-111 43-66 0-109-43-44-43-44-122v-9q0-80 44-123 43-43 109-43z"/>
+<path id="g5e" d="M302 -14q-75 0-131 32-56 31-87 88-32 58-32 134v12q0 77 31 134 31 58 87 90 55 31 128 31 71 0 124-31 54-32 84-88 30-56 30-131v-39h-379q2-65 43-104 42-38 104-38 58 0 88 26 29 26 45 60l85-44q-14-28-40-59-27-31-70-52-43-21-110-21zm-144 311h273q-4 56-40 87-36 32-94 32-58 0-95-32-36-31-44-87z"/>
+<path id="g5g" d="M52 244v15q0 78 32 133 31 55 83 85 52 30 114 30 72 0 111-27 38-27 56-58h16v71h100v-594q0-45-26-72-27-27-73-27h-332v90h300q29 0 29 30v157h-16q-11-18-31-37-20-19-53-31-32-12-81-12-62 0-115 29-52 30-83 86-31 55-31 132zm257-157q67 0 111 43 43 42 43 117v9q0 77-43 118-43 42-111 42-66 0-109-42-44-41-44-118v-9q0-75 44-117 43-43 109-43z"/>
+<path id="g5h" d="M76 0v700h103v-277h16q10 19 29 37 18 18 48 30 31 11 78 11 56 0 100-25 43-25 68-70 25-46 25-110v-296h-103v288q0 64-32 94-32 31-88 31-64 0-102-42-39-42-39-122v-249z"/>
+<path id="g5hyphen" d="M74 209v94h296v-94z"/>
+<path id="g5i" d="M76 0v493h103v-493zm52 560q-30 0-50 20-21 19-21 50 0 31 21 50 20 20 50 20 31 0 51-20 20-19 20-50 0-31-20-50-20-20-51-20z"/>
+<path id="g5k" d="M76 0v700h103v-399h16l194 192h137l-249-239 257-254h-136l-203 205h-16v-205z"/>
+<path id="g5l" d="M76 0v700h103v-700z"/>
+<path id="g5m" d="M76 0v493h101v-58h16q14 26 45 46 31 20 84 20 55 0 88-23 34-22 51-57h16q17 34 49 57 33 23 93 23 48 0 85-19 37-20 59-58 22-39 22-96v-328h-103v320q0 45-24 70-25 24-70 24-48 0-77-31-29-31-29-89v-294h-103v320q0 45-25 70-24 24-69 24-48 0-77-31-29-31-29-89v-294z"/>
+<path id="g5n" d="M76 0v493h101v-74h16q14 30 50 56 36 26 107 26 56 0 100-25 43-25 68-70 25-46 25-110v-296h-103v288q0 64-32 94-32 31-88 31-64 0-102-42-39-42-39-122v-249z"/>
+<path id="g5o" d="M307 -14q-74 0-131 30-58 31-91 88-33 57-33 135v15q0 78 33 134 33 57 91 88 57 31 131 31 74 0 132-31 58-31 91-88 33-56 33-134v-15q0-78-33-135-33-57-91-88-58-30-132-30zm0 92q68 0 111 44 42 43 42 120v9q0 77-42 121-42 43-111 43-67 0-109-43-43-44-43-121v-9q0-77 43-120 42-44 109-44z"/>
+<path id="g5one" d="M257 0v626h-16l-115-236h-111l155 310h192v-700z"/>
+<path id="g5p" d="M76 -200v693h101v-71h16q19 33 57 59 39 26 111 26 62 0 113-30 52-30 84-87 31-56 31-136v-15q0-80-31-137-31-56-83-86-52-30-114-30-48 0-81 12-33 12-53 30-20 19-32 39h-16v-267zm255 276q68 0 111 43 43 43 43 123v9q0 79-43 122-44 43-111 43-66 0-109-43-44-43-44-122v-9q0-80 44-123 43-43 109-43z"/>
+<path id="g5period" d="M138 -14q-35 0-58 23-24 23-24 59 0 36 24 58 23 23 58 23 35 0 58-23 24-23 24-58 0-36-24-59-23-23-58-23z"/>
+<path id="g5r" d="M76 0v493h101v-58h16q12 31 39 45 26 15 65 15h59v-93h-63q-50 0-82-28-32-27-32-84v-290z"/>
+<path id="g5s" d="M278 -14q-94 0-156 42-62 42-76 127l96 23q8-41 27-65 19-24 47-34 29-10 62-10 49 0 76 19 26 19 26 49 0 30-25 44-25 14-74 23l-34 6q-50 9-91 26-41 17-65 47-24 30-24 77 0 70 52 108 52 39 138 39 83 0 137-37 53-38 69-102l-96-27q-9 45-38 63-29 19-72 19-42 0-66-15-24-16-24-44 0-30 23-44 24-14 64-21l35-6q53-9 97-25 44-16 70-46 25-30 25-80 0-74-55-115-55-41-148-41z"/>
+<path id="g5t" d="M261 0q-45 0-71 27-27 27-27 72v307h-136v87h136v163h103v-163h147v-87h-147v-289q0-30 28-30h103v-87z"/>
+<path id="g5two" d="M48 0v79q0 73 25 120 25 47 71 77 47 29 113 49l61 19q41 13 70 32 30 19 46 48 16 28 16 66v4q0 59-40 92-40 34-105 34-67 0-109-36-41-36-41-106v-16h-104v15q0 76 33 129 33 52 91 80 58 28 130 28 72 0 129-27 56-27 88-76 33-49 33-115v-9q0-68-27-113-27-45-74-74-48-29-110-49l-59-18q-47-14-75-31-29-16-42-39-14-23-14-59v-10h395v-94z"/>
+<path id="g5u" d="M265 -9q-56 0-100 25-44 25-69 71-25 46-25 110v296h103v-289q0-64 32-94 32-31 89-31 63 0 101 43 39 42 39 122v249h103v-493h-101v74h-16q-14-30-50-56-36-27-106-27z"/>
+<path id="g5v" d="M190 0l-166 493h109l131-417h16l131 417h109l-166-493z"/>
+<path id="g5y" d="M133 -200v90h275q28 0 28 30v152h-16q-9-20-28-38-18-19-49-31-31-12-78-12-56 0-100 25-44 25-69 71-25 46-25 109v297h103v-289q0-64 32-94 32-31 89-31 63 0 101 42 39 42 39 122v250h103v-594q0-45-26-72-27-27-73-27z"/>
+<path id="g7D" d="M46 0v116h92v468h-92v116h288q141 0 214-72 74-71 74-212v-132q0-141-74-212-73-72-214-72zm224 120h66q80 0 117 42 37 42 37 118v140q0 77-37 118-37 42-117 42h-66z"/>
+<path id="g7Y" d="M246 0v241l-238 459h147l148-300h18l148 300h147l-238-459v-241z"/>
+<path id="g7a" d="M224 -14q-53 0-95 18-42 19-67 54-24 36-24 87 0 51 24 85 25 35 68 52 44 18 100 18h136v28q0 35-22 58-22 22-70 22-47 0-70-22-23-21-30-55l-116 39q12 38 38 70 27 31 72 50 44 20 108 20 98 0 155-49 57-49 57-142v-185q0-30 28-30h40v-104h-84q-37 0-61 18-24 18-24 48v1h-19q-4-12-18-31-14-20-44-35-30-15-82-15zm22 102q53 0 86 30 34 29 34 78v10h-127q-35 0-55-15-20-15-20-42 0-27 21-44 21-17 61-17z"/>
+<path id="g7h" d="M70 0v700h126v-265h18q8 16 25 32 17 16 45 27 29 10 73 10 58 0 101-26 44-27 68-74 24-46 24-108v-296h-126v286q0 56-28 84-27 28-78 28-58 0-90-38-32-39-32-108v-252z"/>
+<path id="g7k" d="M70 0v700h126v-387h18l164 183h164l-229-240 237-256h-162l-174 197h-18v-197z"/>
+<path id="g7s" d="M276 -14q-97 0-159 42-62 42-75 120l116 30q7-35 24-55 16-20 40-29 25-8 54-8 44 0 65 16 21 15 21 38 0 23-20 36-20 12-64 20l-28 5q-52 10-95 27-43 18-69 49-26 31-26 80 0 74 54 113 54 40 142 40 83 0 138-37 55-37 72-97l-117-36q-8 38-33 54-24 16-60 16-36 0-55-12-19-13-19-35 0-24 20-35 20-12 54-18l28-5q56-10 102-27 45-16 72-46 26-31 26-83 0-78-56-121-57-42-152-42z"/>
+<clipPath id="card">
+<rect width="900" height="380" rx="22"/></clipPath>
+<pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#161616" stroke-width="1"/></pattern>
+<radialGradient id="vig" gradientUnits="userSpaceOnUse" cx="300" cy="200" r="660"><stop offset=".25" stop-opacity="0"/><stop offset=".72" stop-opacity=".62"/><stop offset="1" stop-opacity=".96"/></radialGradient>
+<radialGradient id="glow" gradientUnits="userSpaceOnUse" cx="250" cy="196" r="360"><stop offset="0" stop-color="#C9A94A" stop-opacity=".17"/><stop offset=".5" stop-color="#C9A94A" stop-opacity=".05"/><stop offset="1" stop-color="#C9A94A" stop-opacity="0"/></radialGradient>
+<linearGradient id="edge" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3A3A3A"/><stop offset=".45" stop-color="#262626"/><stop offset="1" stop-color="#141414"/></linearGradient>
+<linearGradient id="nameFill" gradientUnits="userSpaceOnUse" x1="0" y1="93" x2="0" y2="208"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#CFCFCF"/></linearGradient>
+<linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#E8CF85" stop-opacity="0"/><stop offset=".5" stop-color="#FFF1C9" stop-opacity=".95"/><stop offset="1" stop-color="#E8CF85" stop-opacity="0"/></linearGradient>
+<clipPath id="slot">
+<rect x="0" y="0" width="900" height="213"/></clipPath>
+<clipPath id="nameClip"><use href="#g7D" transform="translate(52.73 208) scale(0.158 -0.158)"/><use href="#g7a" transform="translate(155.12 208) scale(0.158 -0.158)"/><use href="#g7k" transform="translate(243.6 208) scale(0.158 -0.158)"/><use href="#g7s" transform="translate(327.65 208) scale(0.158 -0.158)"/><use href="#g7h" transform="translate(407.6 208) scale(0.158 -0.158)"/></clipPath>
+<clipPath id="selClip">
+<rect x="56" y="305" width="0" height="28"><animate attributeName="width" values="0;351.12" keyTimes="0;1" calcMode="spline" keySplines="0.65 0 0.3 1" begin="3.05s" dur="0.7s" fill="freeze"/></rect></clipPath></defs>
+<g clip-path="url(#card)">
+<rect width="900" height="380" fill="#000"/>
+<rect width="900" height="380" fill="url(#grid)"/>
+<g fill="#C9A94A">
+<rect class="cl" x="783" y="123" width="24" height="24" rx="4" style="animation:c2 6.35s ease-in-out 0.99s infinite"/>
+<rect class="cl" x="633" y="303" width="24" height="24" rx="4" style="animation:c1 4.32s ease-in-out 2.94s infinite"/>
+<rect class="cl" x="663" y="153" width="24" height="24" rx="4" style="animation:c1 6.02s ease-in-out 0.92s infinite"/>
+<rect class="cl" x="633" y="153" width="24" height="24" rx="4" style="animation:c1 6.04s ease-in-out 1.32s infinite"/>
+<rect class="cl" x="813" y="123" width="24" height="24" rx="4" style="animation:c3 4.59s ease-in-out 2.27s infinite"/>
+<rect class="cl" x="693" y="93" width="24" height="24" rx="4" style="animation:c3 6.08s ease-in-out 1.61s infinite"/>
+<rect class="cl" x="663" y="303" width="24" height="24" rx="4" style="animation:c1 6.06s ease-in-out 3.94s infinite"/>
+<rect class="cl" x="843" y="303" width="24" height="24" rx="4" style="animation:c2 6.76s ease-in-out 3.11s infinite"/>
+<rect class="cl" x="843" y="213" width="24" height="24" rx="4" style="animation:c2 5.02s ease-in-out 1.57s infinite"/>
+<rect class="cl" x="723" y="93" width="24" height="24" rx="4" style="animation:c3 5.19s ease-in-out 3.27s infinite"/>
+<rect class="cl" x="783" y="273" width="24" height="24" rx="4" style="animation:c2 6.21s ease-in-out 1s infinite"/>
+<rect class="cl" x="843" y="243" width="24" height="24" rx="4" style="animation:c1 7.37s ease-in-out 1.02s infinite"/>
+<rect class="cl" x="783" y="213" width="24" height="24" rx="4" style="animation:c2 6.16s ease-in-out 3.73s infinite"/></g>
+<rect width="900" height="380" fill="url(#vig)"/>
+<rect class="glow" width="900" height="380" fill="url(#glow)"/>
+<g>
+<circle cx="40" cy="40" r="13" fill="#C9A94A"/>
+<g transform="translate(35.67 44.6) scale(0.013 -0.013)" fill="#000"><use href="#g7D" x="0"/></g></g>
+<g class="you-av">
+<circle cx="66" cy="40" r="14.5" fill="#000"/>
+<circle cx="66" cy="40" r="13" fill="#EDEDED"/>
+<g transform="translate(61.94 44.6) scale(0.013 -0.013)" fill="#000"><use href="#g7Y" x="0"/></g></g>
+<g class="on1">
+<g transform="translate(90 44.6) scale(0.013 -0.013)" fill="#8C8C8C"><use href="#g5one" x="0"/><use href="#g5o" x="690"/><use href="#g5n" x="1305"/><use href="#g5l" x="1920"/><use href="#g5i" x="2176"/><use href="#g5n" x="2432"/><use href="#g5e" x="3047"/></g></g>
+<g class="on2">
+<g transform="translate(90 44.6) scale(0.013 -0.013)" fill="#8C8C8C"><use href="#g5two" x="0"/><use href="#g5o" x="853"/><use href="#g5n" x="1468"/><use href="#g5l" x="2083"/><use href="#g5i" x="2339"/><use href="#g5n" x="2595"/><use href="#g5e" x="3210"/></g></g>
+<circle class="ring" cx="826.9" cy="40" r="4" fill="#C9A94A"/>
+<circle cx="826.9" cy="40" r="4" fill="#C9A94A"/>
+<g transform="translate(838.9 44.6) scale(0.013 -0.013)" fill="#8C8C8C"><use href="#g5l" x="0"/><use href="#g5i" x="256"/><use href="#g5v" x="512"/><use href="#g5e" x="1039"/></g>
+<g clip-path="url(#slot)" fill="url(#nameFill)">
+<g class="r" style="animation-delay:0.4s"><use href="#g7D" transform="translate(52.73 208) scale(0.158 -0.158)"/></g>
+<g class="r" style="animation-delay:0.56s"><use href="#g7a" transform="translate(155.12 208) scale(0.158 -0.158)"/></g>
+<g class="r" style="animation-delay:0.71s"><use href="#g7k" transform="translate(243.6 208) scale(0.158 -0.158)"/></g>
+<g class="r" style="animation-delay:0.83s"><use href="#g7s" transform="translate(327.65 208) scale(0.158 -0.158)"/></g>
+<g class="r" style="animation-delay:0.96s"><use href="#g7h" transform="translate(407.6 208) scale(0.158 -0.158)"/></g></g>
+<g clip-path="url(#nameClip)">
+<rect class="sheen" x="0" y="68" width="150" height="160" fill="url(#sheen)"/></g>
+<g class="cA">
+<rect x="49" y="82" width="4" height="142" rx="1" fill="#C9A94A"/><path d="M49 82V67q0-5 5-5h40.2q5 0 5 5v10q0 5-5 5z" fill="#C9A94A"/>
+<g transform="translate(56 76.38) scale(0.0125 -0.0125)" fill="#000"><use href="#g5d" x="0"/><use href="#g5a" x="641"/><use href="#g5k" x="1218"/><use href="#g5s" x="1756"/><use href="#g5h" x="2281"/></g></g>
+<g transform="translate(58.81 274) scale(0.03 -0.03)" fill="#E6E6E6"><use class="t" style="animation-delay:1.51s" href="#g5F" x="0"/><use class="t" style="animation-delay:1.55s" href="#g5u" x="537"/><use class="t" style="animation-delay:1.59s" href="#g5l" x="1151"/><use class="t" style="animation-delay:1.61s" href="#g5l" x="1407"/><use class="t" style="animation-delay:1.63s" href="#g5hyphen" x="1663"/><use class="t" style="animation-delay:1.66s" href="#g5s" x="2106"/><use class="t" style="animation-delay:1.69s" href="#g5t" x="2620"/><use class="t" style="animation-delay:1.73s" href="#g5a" x="3077"/><use class="t" style="animation-delay:1.77s" href="#g5c" x="3642"/><use class="t" style="animation-delay:1.81s" href="#g5k" x="4234"/><use class="t" style="animation-delay:1.87s" href="#g5e" x="5040"/><use class="t" style="animation-delay:1.91s" href="#g5n" x="5624"/><use class="t" style="animation-delay:1.95s" href="#g5g" x="6239"/><use class="t" style="animation-delay:2s" href="#g5i" x="6879"/><use class="t" style="animation-delay:2.02s" href="#g5n" x="7135"/><use class="t" style="animation-delay:2.06s" href="#g5e" x="7750"/><use class="t" style="animation-delay:2.1s" href="#g5e" x="8334"/><use class="t" style="animation-delay:2.14s" href="#g5r" x="8918"/><use class="t" style="animation-delay:2.19s" href="#g5b" x="9560"/><use class="t" style="animation-delay:2.23s" href="#g5u" x="10201"/><use class="t" style="animation-delay:2.27s" href="#g5i" x="10815"/><use class="t" style="animation-delay:2.29s" href="#g5l" x="11071"/><use class="t" style="animation-delay:2.31s" href="#g5d" x="11327"/><use class="t" style="animation-delay:2.36s" href="#g5i" x="11968"/><use class="t" style="animation-delay:2.38s" href="#g5n" x="12224"/><use class="t" style="animation-delay:2.42s" href="#g5g" x="12839"/><use class="t" style="animation-delay:2.48s" href="#g5r" x="13734"/><use class="t" style="animation-delay:2.51s" href="#g5e" x="14103"/><use class="t" style="animation-delay:2.55s" href="#g5a" x="14687"/><use class="t" style="animation-delay:2.59s" href="#g5l" x="15264"/><use class="t" style="animation-delay:2.61s" href="#g5hyphen" x="15520"/><use class="t" style="animation-delay:2.64s" href="#g5t" x="15939"/><use class="t" style="animation-delay:2.67s" href="#g5i" x="16397"/><use class="t" style="animation-delay:2.69s" href="#g5m" x="16653"/><use class="t" style="animation-delay:2.75s" href="#g5e" x="17510"/><use class="t" style="animation-delay:2.81s" href="#g5a" x="18349"/><use class="t" style="animation-delay:2.85s" href="#g5p" x="18926"/><use class="t" style="animation-delay:2.9s" href="#g5p" x="19567"/><use class="t" style="animation-delay:2.94s" href="#g5s" x="20208"/><use class="t" style="animation-delay:2.98s" href="#g5period" x="20733"/></g>
+<g class="cB">
+<rect class="bl" x="57" y="247" width="2.5" height="35" rx="1" fill="#C9A94A"/><path d="M57 247V234q0-5 5-5h35.3q5 0 5 5v8q0 5-5 5z" fill="#C9A94A"/>
+<g transform="translate(63 242.03) scale(0.0115 -0.0115)" fill="#000"><use href="#g5d" x="0"/><use href="#g5a" x="641"/><use href="#g5k" x="1218"/><use href="#g5s" x="1756"/><use href="#g5h" x="2281"/></g></g>
+<g class="av">
+<rect x="56" y="305" width="0" height="28" rx="3" fill="#C9A94A" fill-opacity=".24"><animate attributeName="width" values="0;351.12" keyTimes="0;1" calcMode="spline" keySplines="0.65 0 0.3 1" begin="3.05s" dur="0.7s" fill="freeze"/></rect>
+<g transform="translate(59.84 326) scale(0.021 -0.021)" fill="#8C8C8C"><use href="#g5O" x="0"/><use href="#g5p" x="673"/><use href="#g5e" x="1314"/><use href="#g5n" x="1898"/><use href="#g5t" x="2768"/><use href="#g5o" x="3208"/><use href="#g5S" x="4078"/><use href="#g5D" x="4683"/><use href="#g5E" x="5348"/><use href="#g5r" x="6162"/><use href="#g5o" x="6531"/><use href="#g5l" x="7146"/><use href="#g5e" x="7402"/><use href="#g5s" x="7986"/><use href="#g5a" x="8766"/><use href="#g5n" x="9343"/><use href="#g5d" x="9958"/><use href="#g5i" x="10854"/><use href="#g5n" x="11110"/><use href="#g5t" x="11711"/><use href="#g5e" x="12151"/><use href="#g5r" x="12735"/><use href="#g5n" x="13122"/><use href="#g5s" x="13737"/><use href="#g5h" x="14262"/><use href="#g5i" x="14877"/><use href="#g5p" x="15133"/><use href="#g5s" x="15774"/></g>
+<g clip-path="url(#selClip)">
+<g transform="translate(59.84 326) scale(0.021 -0.021)" fill="#FAFAFA"><use href="#g5O" x="0"/><use href="#g5p" x="673"/><use href="#g5e" x="1314"/><use href="#g5n" x="1898"/><use href="#g5t" x="2768"/><use href="#g5o" x="3208"/><use href="#g5S" x="4078"/><use href="#g5D" x="4683"/><use href="#g5E" x="5348"/><use href="#g5r" x="6162"/><use href="#g5o" x="6531"/><use href="#g5l" x="7146"/><use href="#g5e" x="7402"/><use href="#g5s" x="7986"/><use href="#g5a" x="8766"/><use href="#g5n" x="9343"/><use href="#g5d" x="9958"/><use href="#g5i" x="10854"/><use href="#g5n" x="11110"/><use href="#g5t" x="11711"/><use href="#g5e" x="12151"/><use href="#g5r" x="12735"/><use href="#g5n" x="13122"/><use href="#g5s" x="13737"/><use href="#g5h" x="14262"/><use href="#g5i" x="14877"/><use href="#g5p" x="15133"/><use href="#g5s" x="15774"/></g></g></g>
+<g class="px">
+<g class="py">
+<g class="dr">
+<g class="prs"><path d="M0 0V17.2L4.3 13.1 7.1 19.6 10.2 18.3 7.5 12H13.2Z" transform="translate(56 318)" fill="#FFF" stroke="#000" stroke-width="1.3" stroke-linejoin="round"/>
+<rect x="70" y="333" width="36.12" height="19" rx="5" fill="#EDEDED"/>
+<g transform="translate(77 346) scale(0.012 -0.012)" fill="#000"><use href="#g5y" x="0"/><use href="#g5o" x="614"/><use href="#g5u" x="1229"/></g></g></g></g></g></g>
+<rect x=".5" y=".5" width="899" height="379" rx="21.5" fill="none" stroke="url(#edge)"/>
+</svg>
