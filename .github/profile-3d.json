@@ -1,0 +1,13 @@
+[
+  {
+    "type": "normal",
+    "fileName": "3d.svg",
+    "backgroundColor": "#000000",
+    "foregroundColor": "#EDEDED",
+    "strongColor": "#E8CF85",
+    "weakColor": "#8C8C8C",
+    "radarColor": "#C9A94A",
+    "growingAnimation": true,
+    "contribColors": ["#1A1A1A", "#4A3F1E", "#7D6A2E", "#B39443", "#E8CF85"]
+  }
+]
