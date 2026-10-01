@@ -4,7 +4,7 @@
   <a href="https://codeshare.tech"><img src="https://img.shields.io/badge/codeshare.tech-000000?style=flat-square&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZD0iTTggNiAyIDEybDYgNk0xNiA2bDYgNi02IDYiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI0M5QTk0QSIgc3Ryb2tlLXdpZHRoPSIyLjYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPjwvc3ZnPg%3D%3D" height="28" alt="codeshare.tech"></a>
   <a href="mailto:daksh.java.util@gmail.com"><img src="https://img.shields.io/badge/daksh.java.util%40gmail.com-000000?style=flat-square&logo=gmail&logoColor=C9A94A" height="28" alt="Email"></a>
   <a href="https://www.linkedin.com/in/daksh-pushpad-0aa657288/"><img src="https://img.shields.io/badge/LinkedIn-000000?style=flat-square&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI0M5QTk0QSIgZD0iTTMuNSA5aDMuOHYxMS41SDMuNXpNNS40IDMuM2EyLjIgMi4yIDAgMSAxIDAgNC40IDIuMiAyLjIgMCAwIDEgMC00LjR6TTkuNiA5aDMuNnYxLjZjLjUtLjkgMS44LTEuOSAzLjYtMS45IDMuOCAwIDQuNSAyLjUgNC41IDUuOHY2SDE3LjV2LTUuM2MwLTEuMyAwLTIuOS0xLjgtMi45cy0yLjEgMS40LTIuMSAyLjh2NS40SDkuNnoiLz48L3N2Zz4%3D" height="28" alt="LinkedIn"></a>
-  <a href="https://codeforces.com/profile/adksjhfwerw23498"><img src="https://img.shields.io/badge/Codeforces-max%201500-1C1C1C?style=flat-square&logo=codeforces&logoColor=C9A94A&labelColor=000000" height="28" alt="Codeforces"></a>
+  <a href="https://codeforces.com/profile/YOUR_CF_HANDLE"><img src="https://img.shields.io/badge/Codeforces-max%201500-1C1C1C?style=flat-square&logo=codeforces&logoColor=C9A94A&labelColor=000000" height="28" alt="Codeforces"></a>
   <a href="https://leetcode.com/u/GitDaksh/"><img src="https://img.shields.io/badge/LeetCode-000000?style=flat-square&logo=leetcode&logoColor=C9A94A" height="28" alt="LeetCode"></a>
 </p>
 
@@ -20,7 +20,7 @@ Next.js, TypeScript and Tailwind on the front; Node, Express and Socket.IO on th
 
 ## About
 
-Final-year CS student. I like building software that happens in real time: CodeShare, and [VisualVibe](https://github.com/GitDaksh/visualvibe), a WebRTC video-calling app. Codeforces Specialist (max 1500), and I tutor competitive programming in C++. Off the clock I do CTFs on TryHackMe, Hack The Box and picoCTF.
+Final-year CS student at Chandigarh University. I like building software that happens in real time: CodeShare, and [VisualVibe](https://github.com/GitDaksh/visualvibe), a WebRTC video-calling app. Codeforces Specialist (max 1500), and I tutor competitive programming in C++. Off the clock I do CTFs on TryHackMe, Hack The Box and picoCTF.
 
 Looking for SDE roles and internships. Reach me at [daksh.java.util@gmail.com](mailto:daksh.java.util@gmail.com).
 
